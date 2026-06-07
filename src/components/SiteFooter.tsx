@@ -5,7 +5,7 @@ export function SiteFooter() {
     <footer className="hairline mt-24">
       <div className="container-page py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-sm text-muted-foreground">
         <p>
-          © {new Date().getFullYear()} {profile.name}. Built with care in San Diego.
+          © {new Date().getFullYear()} {profile.name}
         </p>
         <div className="flex items-center gap-5">
           <a href={`mailto:${profile.email}`} className="hover:text-foreground transition-colors">
@@ -25,7 +25,7 @@ export function SiteFooter() {
             rel="noreferrer"
             className="hover:text-foreground transition-colors"
           >
-            Résumé
+            Resume
           </a>
         </div>
       </div>

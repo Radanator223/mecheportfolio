@@ -33,7 +33,7 @@ export function SiteHeader() {
           rel="noreferrer"
           className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-rule bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-foreground/40 transition-colors"
         >
-          Résumé
+          Resume
           <span aria-hidden>↗</span>
         </a>
       </div>
