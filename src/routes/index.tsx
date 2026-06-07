@@ -7,13 +7,13 @@ import { profile, projects, skills, experience } from "@/data/projects";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Shahrad Zomorrodi — Mechanical Engineering Portfolio" },
+      { title: "Shahrad Zomorrodi | Mechanical Engineering Portfolio" },
       {
         name: "description",
         content:
           "Mechanical engineering portfolio of Shahrad Zomorrodi (UC San Diego): competition robots, eVTOL drones, aerodynamics, thermal analysis, and mechanism design.",
       },
-      { property: "og:title", content: "Shahrad Zomorrodi — Mechanical Engineering Portfolio" },
+      { property: "og:title", content: "Shahrad Zomorrodi | Mechanical Engineering Portfolio" },
       {
         property: "og:description",
         content:
@@ -139,13 +139,13 @@ function About() {
         <div className="lg:col-span-7 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
           <p>
             I'm a mechanical engineering student at UC San Diego (B.S. expected March 2027). I'm
-            most at home where CAD, fabrication, and instrumented testing meet — sketching a
+            most at home where CAD, fabrication, and instrumented testing meet: sketching a
             mechanism, running the numbers, then watching the part behave like the math said it would.
           </p>
           <p>
             Recent work spans a competition robot, an eVTOL wildfire-response quadcopter, leading-edge
             slat aerodynamics on a NACA airfoil, and pin-fin heat-sink characterization. I'm looking
-            for summer 2027 internships in mechanical design, R&amp;D, aerospace, or thermal/fluid systems.
+            for fall and winter internships in mechanical design, R&amp;D, aerospace, or thermal/fluid systems.
           </p>
           <div className="pt-4 grid sm:grid-cols-3 gap-6">
             {Object.entries(skills).map(([group, items]) => (
