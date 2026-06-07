@@ -91,7 +91,7 @@ function Hero() {
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-full border border-rule bg-surface px-5 py-2.5 text-sm font-medium hover:border-foreground/40 transition-colors"
           >
-            Download résumé
+            Download resume
             <span aria-hidden>↗</span>
           </a>
         </div>
@@ -134,7 +134,7 @@ function About() {
     <section id="about" className="container-page py-20 md:py-28 scroll-mt-20">
       <div className="grid lg:grid-cols-12 gap-10">
         <div className="lg:col-span-5">
-          <SectionHead eyebrow="About" title="Built in CAD, proven on the bench." />
+          <SectionHead eyebrow="About" title="Design. Analyze. Build. Test." />
         </div>
         <div className="lg:col-span-7 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
           <p>
