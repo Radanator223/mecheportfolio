@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { ProjectCard } from "@/components/ProjectCard";
 import { profile, projects, skills, experience } from "@/data/projects";
+import robotBuilt from "@/assets/robot-built.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
