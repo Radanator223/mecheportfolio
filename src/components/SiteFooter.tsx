@@ -25,7 +25,7 @@ export function SiteFooter() {
             rel="noreferrer"
             className="hover:text-foreground transition-colors"
           >
-            Résumé
+            Resume
           </a>
         </div>
       </div>
