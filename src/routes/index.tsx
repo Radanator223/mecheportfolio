@@ -185,7 +185,7 @@ function Experience() {
       <SectionHead eyebrow="Experience" title="Where I've worked" />
       <ol className="mt-12 space-y-px bg-rule rounded-2xl overflow-hidden border border-rule">
         {experience.map((e) => (
-          <li key={e.role + e.date} className="bg-surface p-6 md:p-8 grid md:grid-cols-12 gap-4">
+          <li key={e.role + e.date} className="bg-surface border-l-4 border-l-primary p-6 md:p-8 grid md:grid-cols-12 gap-4 transition-colors hover:bg-accent/40">
             <div className="md:col-span-4">
               <p className="font-display text-lg font-semibold leading-tight">{e.role}</p>
               <p className="text-sm text-muted-foreground mt-1">

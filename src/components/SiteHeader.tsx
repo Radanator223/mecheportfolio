@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { profile } from "@/data/projects";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export function SiteHeader() {
   return (
@@ -31,15 +32,18 @@ export function SiteHeader() {
           </Link>
 
         </nav>
-        <a
-          href={profile.resume}
-          target="_blank"
-          rel="noreferrer"
-          className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-rule bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-foreground/40 transition-colors"
-        >
-          Resume
-          <span aria-hidden>↗</span>
-        </a>
+        <div className="flex items-center gap-2">
+          <ThemeToggle />
+          <a
+            href={profile.resume}
+            target="_blank"
+            rel="noreferrer"
+            className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-rule bg-surface px-3.5 py-1.5 text-sm font-medium hover:border-foreground/40 transition-colors"
+          >
+            Resume
+            <span aria-hidden>↗</span>
+          </a>
+        </div>
       </div>
     </header>
   );

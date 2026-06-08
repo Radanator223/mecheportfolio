@@ -4,8 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Fonts: Space Grotesk (display) + DM Sans (body) */
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+/* Fonts (Space Grotesk + DM Sans + JetBrains Mono) are loaded via <link> tags in __root.tsx */
 
 /*
  * Design system — Cloud White palette
