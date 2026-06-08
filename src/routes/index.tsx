@@ -115,20 +115,6 @@ function Hero() {
             </div>
           ))}
         </dl>
-
-        <div className="mt-10">
-          <p className="eyebrow mb-3">Tools &amp; software</p>
-          <ul className="flex flex-wrap gap-2">
-            {Object.values(skills).flat().map((tool) => (
-              <li
-                key={tool}
-                className="rounded-full border border-rule bg-surface px-3 py-1 text-xs font-medium text-foreground"
-              >
-                {tool}
-              </li>
-            ))}
-          </ul>
-        </div>
       </div>
     </section>
   );
