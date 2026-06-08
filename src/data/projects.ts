@@ -35,7 +35,7 @@ export const projects: Project[] = [
     org: "UC San Diego · Mechanical Design",
     date: "Sept to Nov 2024",
     summary:
-      "A compact robot that drives, rotates an arm, and grasps objects with a geared claw. Engineered end to end from concept sketches through scored competition runs using **Fusion 360**, **GD&T**, and quasi-static force analysis.",
+      "A compact robot that drives, rotates an arm, and grasps objects with a geared claw. Engineered end to end from concept sketches through scored competition runs using **Fusion 360**, **GD&T**, **Soldering**, and quasi-static force analysis.",
     cover: robotBuilt,
     images: [
       { src: robotBuilt, caption: "As-built robot: claw, rotating arm, friction drivetrain." },
@@ -50,6 +50,7 @@ export const projects: Project[] = [
       "Rotating arm: a 6.75:1 compound gear train driven by a geared DC motor.",
       "Friction drivetrain: motors, mounts, axle holders, and friction wheels.",
       "Quasi-static force analysis and free body diagrams; aluminum and **3D Printing** parts.",
+      "Electrical: hand-soldered the motor and switch wiring for the drivetrain.",
     ],
     results: [
       "Lifted a 250 g payload (390 g total), beating the 300 g target.",
@@ -61,7 +62,7 @@ export const projects: Project[] = [
       { value: "250 g", label: "payload lifted" },
       { value: "2×", label: "points vs. target" },
     ],
-    tools: ["Fusion 360", "AutoCAD", "Laser cutter", "3D printing", "Machining"],
+    tools: ["Fusion 360", "AutoCAD", "Laser cutter", "3D printing", "Machining", "Soldering"],
   },
   {
     slug: "evtol-wildfire-drone",
@@ -212,6 +213,7 @@ export const profile = {
   email: "shahradzomorrodi@gmail.com",
   phone: "(949) 527-8214",
   linkedin: "https://www.linkedin.com/in/shahradzomorrodi",
+  portfolio: "https://shahrad-zomorrodi-portfolio.vercel.app/",
   resume: "/shahrad-zomorrodi-resume.pdf",
   tagline:
     "I build systems where mechanical hardware meets rigorous analysis, from CFD-validated aerodynamics and thermal characterization to flight-ready eVTOL avionics and competition robotics.",
@@ -296,7 +298,7 @@ export const experience: Experience[] = [
     role: "Embedded & Electronics Lead",
     date: "Nov 2024 to June 2025",
     bullets: [
-      "Led electrical integration for an eVTOL firefighting drone: batteries, ESCs, Pixhawk 4, and wiring harness.",
+      "Led electrical integration for an eVTOL firefighting drone—batteries, ESCs, Pixhawk 4, and a hand-soldered wiring harness—reaching 49.6 N thrust at a 1.26 thrust-to-weight ratio.",
       "Designed and tested payload delivery mechanisms through iterative prototyping.",
       "Coordinated with mechanical and controls teams on power distribution, weight, and system safety.",
       "Mentored new members through embedded systems fundamentals and hardware/software debugging.",

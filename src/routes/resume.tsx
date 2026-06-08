@@ -79,6 +79,14 @@ function ResumePage() {
                   >
                     linkedin.com/in/shahradzomorrodi
                   </a>
+                  <a
+                    className="hover:underline"
+                    href={profile.portfolio}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    shahrad-zomorrodi-portfolio.vercel.app
+                  </a>
                 </p>
               </header>
 
