@@ -218,8 +218,21 @@ export const profile = {
 };
 
 export const skills = {
-  CAD: ["SolidWorks", "Fusion 360", "Creo Parametric", "CATIA", "AutoCAD", "ANSYS", "CFD", "GD&T"],
-  Fabrication: [
+  "Engineering Software": [
+    "SolidWorks",
+    "Fusion 360",
+    "Creo Parametric",
+    "CATIA",
+    "AutoCAD",
+    "Revit",
+    "ANSYS Fluent",
+    "Bluebeam Revu",
+    "MATLAB",
+    "Python",
+  ],
+  "Fabrication & Methods": [
+    "GD&T",
+    "CFD",
     "3D Printing",
     "Laser Cutting",
     "Machining",
@@ -228,13 +241,11 @@ export const skills = {
     "Soldering",
     "Prototyping",
   ],
-  "Electromechanical & Code": [
+  Electronics: [
     "Circuit Design",
     "Arduino",
     "Pixhawk Flight Controllers",
     "Power Distribution",
-    "MATLAB",
-    "Python",
   ],
 };
 
