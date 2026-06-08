@@ -187,6 +187,25 @@ function Experience() {
                 </li>
               ))}
             </ul>
+            {e.spotlight && (
+              <figure className="md:col-span-8 md:col-start-5 mt-1 rounded-xl border border-primary/30 bg-primary/5 p-4 md:p-5">
+                <p className="eyebrow mb-2">Intern spotlight</p>
+                <blockquote className="text-sm md:text-base text-foreground leading-relaxed">
+                  &ldquo;{e.spotlight.quote}&rdquo;
+                </blockquote>
+                <figcaption className="mt-3 text-xs text-muted-foreground">
+                  &mdash; {e.spotlight.source} ·{" "}
+                  <a
+                    href={e.spotlight.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-medium text-primary hover:underline"
+                  >
+                    Read the full spotlight ↗
+                  </a>
+                </figcaption>
+              </figure>
+            )}
           </li>
         ))}
       </ol>

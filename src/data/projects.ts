@@ -249,7 +249,20 @@ export const skills = {
   ],
 };
 
-export const experience = [
+export type Experience = {
+  company: string;
+  location: string;
+  role: string;
+  date: string;
+  bullets: string[];
+  spotlight?: {
+    quote: string;
+    source: string;
+    url: string;
+  };
+};
+
+export const experience: Experience[] = [
   {
     company: "Gouvis Engineering Consulting Group, Inc.",
     location: "Irvine, CA",
@@ -270,6 +283,12 @@ export const experience = [
       "Supported HVAC system design by performing load calculations to ASHRAE standards and engineering codes.",
       "Produced and reviewed mechanical plan sets for residential and commercial buildings in AutoCAD and Bluebeam Revu.",
     ],
+    spotlight: {
+      quote:
+        "Shahrad worked closely with our Mechanical team, bringing professionalism and a strong work ethic to every project. It's been a pleasure having him on board!",
+      source: "Gouvis Engineering Consulting Group",
+      url: "https://www.linkedin.com/posts/gouvis-engineering_engineeringinternship-mechanicalengineering-activity-7361821953474678786-P42k",
+    },
   },
   {
     company: "Vertical Flight Society",
