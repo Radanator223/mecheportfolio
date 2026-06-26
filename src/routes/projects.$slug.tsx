@@ -109,11 +109,7 @@ function ProjectPage() {
             {project.images.map((img) => (
               <figure key={img.src} className="card-elev overflow-hidden">
                 <div className="aspect-[4/3] bg-surface-2 overflow-hidden">
-                  <img
-                    src={img.src}
-                    alt={img.caption}
-                    className="h-full w-full object-cover"
-                  />
+                  <img src={img.src} alt={img.caption} className="h-full w-full object-cover" />
                 </div>
                 <figcaption className="p-4 text-sm text-muted-foreground border-t border-rule">
                   {img.caption}

@@ -15,8 +15,7 @@ export const Route = createFileRoute("/resume")({
       { property: "og:title", content: "Resume | Shahrad Zomorrodi" },
       {
         property: "og:description",
-        content:
-          "Mechanical engineering resume: education, experience, projects, and skills.",
+        content: "Mechanical engineering resume: education, experience, projects, and skills.",
       },
     ],
     links: [{ rel: "canonical", href: "/resume" }],
@@ -68,7 +67,10 @@ function ResumePage() {
                   <a className="hover:underline" href={`mailto:${profile.email}`}>
                     {profile.email}
                   </a>
-                  <a className="hover:underline" href={`tel:${profile.phone.replace(/[^0-9+]/g, "")}`}>
+                  <a
+                    className="hover:underline"
+                    href={`tel:${profile.phone.replace(/[^0-9+]/g, "")}`}
+                  >
                     {profile.phone}
                   </a>
                   <a

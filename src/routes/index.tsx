@@ -74,8 +74,7 @@ function Hero() {
           Mechanical Engineering · UC San Diego · Expected March 2027
         </p>
         <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight leading-[1.05]">
-          I design, build, and{" "}
-          <span className="text-primary">measure</span> mechanical systems.
+          I design, build, and <span className="text-primary">measure</span> mechanical systems.
         </h1>
         <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl leading-relaxed">
           {profile.tagline}
@@ -107,7 +106,11 @@ function Hero() {
 function Work() {
   return (
     <section id="work" className="container-page py-20 md:py-28 scroll-mt-20">
-      <SectionHead eyebrow="Selected work" title="Projects" subtitle="Five case studies across robotics, UAV systems, aerodynamics, thermal, and mechanism design." />
+      <SectionHead
+        eyebrow="Selected work"
+        title="Projects"
+        subtitle="Five case studies across robotics, UAV systems, aerodynamics, thermal, and mechanism design."
+      />
       <div className="mt-12 grid gap-6 md:gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((p) => (
           <ProjectCard key={p.slug} project={p} />
@@ -126,10 +129,16 @@ function About() {
         </div>
         <div className="lg:col-span-7 space-y-5 text-base md:text-lg text-muted-foreground leading-relaxed">
           <p>
-            I'm a mechanical engineering student at UC San Diego, graduating with a B.S. in March 2027. My work sits at the intersection of CAD, fabrication, and instrumented testing: I sketch a mechanism, run the numbers, and then verify the hardware behaves the way the analysis predicted.
+            I'm a mechanical engineering student at UC San Diego, graduating with a B.S. in March
+            2027. My work sits at the intersection of CAD, fabrication, and instrumented testing: I
+            sketch a mechanism, run the numbers, and then verify the hardware behaves the way the
+            analysis predicted.
           </p>
           <p>
-            Recent projects include a competition robot, an eVTOL wildfire-response quadcopter, leading-edge slat aerodynamics on a NACA airfoil, and pin-fin heat-sink characterization. I'm currently seeking fall and winter internships in mechanical design, R&amp;D, aerospace, or thermal and fluid systems.
+            Recent projects include a competition robot, an eVTOL wildfire-response quadcopter,
+            leading-edge slat aerodynamics on a NACA airfoil, and pin-fin heat-sink
+            characterization. I'm currently seeking fall and winter internships in mechanical
+            design, R&amp;D, aerospace, or thermal and fluid systems.
           </p>
           <div className="pt-4 grid sm:grid-cols-3 gap-6">
             {Object.entries(skills).map(([group, items]) => (
@@ -155,7 +164,10 @@ function Experience() {
       <SectionHead eyebrow="Experience" title="Where I've worked" />
       <ol className="mt-12 space-y-px bg-rule rounded-2xl overflow-hidden border border-rule">
         {experience.map((e) => (
-          <li key={e.role + e.date} className="bg-surface border-l-4 border-l-primary p-6 md:p-8 grid md:grid-cols-12 gap-4 transition-colors hover:bg-accent/40">
+          <li
+            key={e.role + e.date}
+            className="bg-surface border-l-4 border-l-primary p-6 md:p-8 grid md:grid-cols-12 gap-4 transition-colors hover:bg-accent/40"
+          >
             <div className="md:col-span-4">
               <p className="font-display text-lg font-semibold leading-tight">{e.role}</p>
               <p className="text-sm text-muted-foreground mt-1">
@@ -198,7 +210,8 @@ function Contact() {
           Let's design something together.
         </h2>
         <p className="mt-5 text-muted-foreground max-w-xl mx-auto">
-          Mechanical design, aerospace, R&amp;D, thermal and fluid systems. Happy to chat about any of it.
+          Mechanical design, aerospace, R&amp;D, thermal and fluid systems. Happy to chat about any
+          of it.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a

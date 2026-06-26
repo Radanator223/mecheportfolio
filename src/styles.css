@@ -50,12 +50,12 @@
   --radius: 0.75rem;
 
   /* Cloud White palette */
-  --background: oklch(0.992 0.002 247);     /* #fafbfc */
-  --surface: oklch(1 0 0);                   /* pure white card */
-  --surface-2: oklch(0.965 0.006 247);       /* #e8ecf1 */
-  --foreground: oklch(0.18 0.03 256);        /* deep slate */
+  --background: oklch(0.992 0.002 247); /* #fafbfc */
+  --surface: oklch(1 0 0); /* pure white card */
+  --surface-2: oklch(0.965 0.006 247); /* #e8ecf1 */
+  --foreground: oklch(0.18 0.03 256); /* deep slate */
   --muted: oklch(0.965 0.006 247);
-  --muted-foreground: oklch(0.55 0.02 256);  /* #94a3b8-ish */
+  --muted-foreground: oklch(0.55 0.02 256); /* #94a3b8-ish */
   --rule: oklch(0.91 0.008 247);
 
   --card: var(--surface);
@@ -63,7 +63,7 @@
   --popover: var(--surface);
   --popover-foreground: var(--foreground);
 
-  --primary: oklch(0.62 0.18 258);           /* #3b82f6 blue */
+  --primary: oklch(0.62 0.18 258); /* #3b82f6 blue */
   --primary-foreground: oklch(0.99 0 0);
   --secondary: var(--surface-2);
   --secondary-foreground: var(--foreground);
@@ -118,7 +118,11 @@
     text-rendering: optimizeLegibility;
   }
 
-  h1, h2, h3, h4, h5 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
     font-family: var(--font-display);
     letter-spacing: -0.02em;
     color: var(--color-foreground);

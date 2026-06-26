@@ -10,9 +10,7 @@ export function SiteHeader() {
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-md bg-foreground text-background font-display text-sm font-semibold">
             SZ
           </span>
-          <span className="font-display font-semibold tracking-tight">
-            Shahrad Zomorrodi
-          </span>
+          <span className="font-display font-semibold tracking-tight">Shahrad Zomorrodi</span>
         </Link>
         <nav className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">
           <Link to="/" hash="work" className="hover:text-foreground transition-colors">
@@ -30,7 +28,6 @@ export function SiteHeader() {
           <Link to="/resume" className="hover:text-foreground transition-colors">
             Resume
           </Link>
-
         </nav>
         <div className="flex items-center gap-2">
           <ThemeToggle />
