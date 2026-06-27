@@ -24,7 +24,7 @@ Job-application portfolio site for Shahrad (mechanical engineer, CA job search).
 
 ## Deploy
 
-- Pushing to `main` on GitHub (`Radanator223/mecheportfolio`) auto-deploys to Vercel. Treat `main` as production.
+- Pushing to `main` on GitHub (`shahradzomorrodi/mecheportfolio`) auto-deploys to Vercel. Treat `main` as production.
 
 ## Conventions
 
