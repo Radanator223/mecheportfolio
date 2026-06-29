@@ -77,6 +77,14 @@ function ResumePage() {
                   </a>
                   <a
                     className="hover:underline"
+                    href={profile.github}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    github.com/shahradzomorrodi
+                  </a>
+                  <a
+                    className="hover:underline"
                     href={profile.portfolio}
                     target="_blank"
                     rel="noreferrer"

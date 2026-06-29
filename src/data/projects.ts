@@ -212,6 +212,7 @@ export const profile = {
   grad: "B.S. Mechanical Engineering · Expected March 2027",
   email: "shahradzomorrodi@gmail.com",
   linkedin: "https://www.linkedin.com/in/shahradzomorrodi",
+  github: "https://github.com/shahradzomorrodi",
   portfolio: "https://shahradzomorrodi.com",
   resume: "/shahrad-zomorrodi-resume.pdf",
   tagline:

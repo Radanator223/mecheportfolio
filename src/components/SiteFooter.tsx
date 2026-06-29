@@ -20,6 +20,14 @@ export function SiteFooter() {
             LinkedIn
           </a>
           <a
+            href={profile.github}
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-foreground transition-colors"
+          >
+            GitHub
+          </a>
+          <a
             href={profile.resume}
             target="_blank"
             rel="noreferrer"

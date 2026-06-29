@@ -40,7 +40,7 @@ export const Route = createFileRoute("/")({
             "@type": "CollegeOrUniversity",
             name: profile.school,
           },
-          sameAs: [profile.linkedin],
+          sameAs: [profile.linkedin, profile.github],
         }),
       },
     ],
@@ -226,6 +226,14 @@ function Contact() {
             className="inline-flex items-center gap-2 rounded-full border border-rule bg-surface px-5 py-2.5 text-sm font-medium hover:border-foreground/40 transition-colors"
           >
             LinkedIn ↗
+          </a>
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-rule bg-surface px-5 py-2.5 text-sm font-medium hover:border-foreground/40 transition-colors"
+          >
+            GitHub ↗
           </a>
         </div>
       </div>
